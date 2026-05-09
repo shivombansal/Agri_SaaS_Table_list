@@ -42,7 +42,7 @@ PROD_ROWS = [
     (1,"sync_prod_crops_dynamics","sync","—","Dynamics crop staging",False),
     (1,"sync_prod_varieties_dynamics","sync","—","Dynamics variety staging",False),
     (1,"mst_prod_seed_types","master","—","Seed type master",True),
-    (1,"mst_prod_seed_categories","master","—","Seed category master",True),
+    (1,"mst_prod_Crop_categories","master","—","Crop category master",True),
     # ── Wave 2 ────────────────────────────────────────────────────────────────
     (2,"mst_prod_regions","master","mst_prod_zones","Geo region under zone",False),
     (2,"mst_prod_sub_departments","master","mst_prod_departments","Sub-department grouping",False),
@@ -55,7 +55,7 @@ PROD_ROWS = [
     (3,"mst_prod_territories","master","mst_prod_regions","Territory under region",False),
     (3,"mst_prod_blocks","master","mst_prod_regions","Production block master",False),
     (3,"mst_prod_roles","master","mst_prod_departments · mst_prod_sub_departments","Role / permissions master",False),
-    (3,"mst_prod_varieties","master","mst_prod_crops · mst_prod_product_skus · mst_prod_female_codes · mst_prod_male_codes · mst_prod_seed_types · mst_prod_seed_categories","Core variety master",False),
+    (3,"mst_prod_varieties","master","mst_prod_crops · mst_prod_product_skus · mst_prod_female_codes · mst_prod_male_codes · mst_prod_seed_types · mst_prod_Crop_categories","Core variety master",False),
     (3,"sync_prod_region_dynamics","sync","sync_prod_zone_dynamics","Dynamics region staging",False),
     (3,"mst_prod_mode_of_travel_mapping","master","mst_prod_mode_of_travel · mst_prod_type_of_travel","Travel mode-type mapping",False),
     (3,"jn_prod_zone_region","join","mst_prod_zones · mst_prod_regions","Zone ↔ Region M:N",False),
